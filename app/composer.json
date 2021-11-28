@@ -1,0 +1,13 @@
+{
+    "require": {
+        "clue/framework-x": "dev-main"
+    },
+    "scripts": {
+        "serve": "php -S 0.0.0.0:8080 -t ./ public/index.php"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\Todo\\": "src/"
+        }
+    }
+}
